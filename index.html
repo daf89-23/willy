@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastern Africa Statistical Training Center. </title>
+    <link rel="icon" href="images/eastc.png" type="image/x-icon">
+    <style>
+        * {
+            color: rgb(208, 213, 211);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #323236;
+    
+    
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #343055;
+    color: #4bbc21;
+    padding-top: 20px;
+    min-height: 50px;
+    border-bottom: #77a8d1 3px solid;
+}
+
+header h1 {
+    color: #06969b86;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+header img.header-image {
+    width: 100%; /* Makes the image full width of its container */
+    max-width: 400px; /* Ensures the image doesn't exceed 400px in width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Centers the image horizontally */
+    margin: 0 auto; /* Centers the image horizontally */
+    padding: 10px; /* Adds padding around the image */
+    border-radius: 10px; /* Rounds the corners of the image */
+
+}
+
+
+.logo
+ {
+    height: 140px; /* Set the height of the logos */
+    width: 200px; /* Maintain aspect ratio */
+}
+
+.logo {
+    float:middle ; /* Float the middle logo*/
+    margin-right: 20px; /* Add some space between the logo and the text */
+}
+
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .navbar .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .navbar .hamburger {
+        display: flex;
+    }
+
+    .nav-toggle:checked + .hamburger + .nav-links {
+        display: flex;
+    }
+}
+.table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    table{
+        background-color:rgb(21, 60, 98);
+    }
+    td,
+    th,
+    thead ,table{
+        width: 800px;
+        border: 1px solid rgb(78, 86, 113);
+        border-collapse: collapse;
+    }
+    td{
+        color: rgb(104, 110, 136);
+    }
+
+    .sogea{
+        margin-left: 100px;
+    }
+main {
+    padding: 20px 0;
+}
+
+main .welcome,
+main .highlights,
+main .event-details,
+main .welcome-message,
+main .schedule,
+main .speakers,
+main .contacts,
+main .location,
+main .registration {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.ududu{
+    margin-right: -20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images.png " class="logo" width="100%">
+            <h1>Eastern African Statistical Training Centre</h1>
+            
+            <p><marquee>Eastern Africa Statistical Training Centre Convocation Ceremony 2024</marquee></p>
+        </div>
+    </header>
+    
+    
+    
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="https://eastc.ac.tz/">EASTC</a>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#location">location</a><li>
+                  
+        
+            </ul>
+        </div>
+    </nav>
+    
+    <main id="home">
+        <div class="container">
+            <section class="welcome">
+                <h2>Welcome to the Convocation Ceremony 2024</h2>
+                <div class="cont"><p>Dear Invited Guests & Graduates,</p>
+                    <p>Congratulations on reaching this important milestone in your academic journey.
+                       We are delighted to invite you to the University Convocation ceremony,
+                       where we will celebrate your achievements and mark the beginning of your new chapter.</p>
+                </div> 
+                <p> We are delighted to invite you to the annual convocation ceremony of the Eastern African Statistical Training Centre. Join us for an eventful day filled with inspiring speeches, exciting presentations, and the celebration of our graduates' achievements.</p>
+                <p>Sincerely, Dr. Tumaini M Katunzi,Rector.</p>
+            </section>
+            
+            <section class="highlights">
+                <h2>Event Highlights</h2>
+                <p>Keynote Speakers: Dr. Jane Doe and Prof. John Smith</p>
+                <p>Special Sessions: Data Science Workshops, Networking Opportunities, and more.</p>
+            </section>
+            
+            <section class="event-details">
+                <h2>Event Details</h2>
+                <p>Date: June 25, 2024</p>
+                <p>Time: 10:00 AM - 2:00 PM</p>
+                <p>Venue: Mlimanicity, Dar es Salaam, Tanzania</p>
+            </section>
+            
+            <section class="welcome-message">
+                <h2>Welcome Message</h2>
+                <p>Dear Graduates and Guests,</p>
+                <p>On behalf of the Eastern African Statistical Training Centre, I am pleased to welcome you to our 2024 convocation ceremony. This event marks a significant milestone in the academic journey of our students, and we are honored to celebrate their accomplishments with you. Enjoy the ceremony!</p>
+                <p>Sincerely,</p>
+                <p>Dr. John Doe, Director</p>
+            </section>
+            
+            <section class="schedule">
+                <h2>Event Schedule</h2>
+                <p>9:00 AM - Opening Ceremony</p>
+                <p>10:00 AM - Keynote Speech by Dr. Jane Doe</p>
+                <p>11:00 PM - Lunch Break</p>
+                <p>12:00 PM - Keynote Speech by Prof. John Smith</p>
+                <p>1:00 PM - Closing Remarks</p>
+                
+            </section>
+            
+        </div>
+    </main>
+    
+        <div class="sogea">
+            <main id="About">
+                <h2><a name="About">About</a></h2>
+                <br>
+        <b>The Eastern Africa Statistical Training Centre (EASTC) </b>is an institution located in Dar es Salaam, Tanzania. Established in 1965, it serves as a regional center of excellence for statistical training and capacity building in Eastern Africa. Here are some key points about EASTC:<br>
+
+<b>1.Mission:</b> EASTC's mission is to enhance the capacity of countries in Eastern Africa in statistical development through training, research, and consultancy services.
+<br>
+<b>2.Training Programs</b>: EASTC offers a wide range of training programs in statistics and related fields. These programs cater to various levels of expertise, from basic statistical methods to advanced techniques. Courses cover topics such as survey design and implementation, data analysis, statistical software applications, and data visualization.
+<br>
+<b>3.Regional Focus</b>: As a regional institution, EASTC primarily serves the countries of Eastern Africa, including Tanzania, Kenya, Uganda, Rwanda, Burundi, South Sudan, and the Democratic Republic of Congo. Its training programs are tailored to address the specific statistical needs and challenges faced by these countries.
+<br>
+<b>4.Partnerships</b>: EASTC collaborates with various international organizations, development partners, and academic institutions to deliver high-quality training and support. Partnerships with organizations such as the United Nations Statistical Institute for Asia and the Pacific (UNSIAP), the World Bank, the African Development Bank (AfDB), and the United Nations Economic Commission for Africa (UNECA) help EASTC stay updated with global best practices and trends in statistical capacity building.
+<br>
+<b>5.Consultancy Services</b>: In addition to training programs, EASTC provides consultancy services to governments, national statistical offices, and other organizations in the region. These services may include assistance with survey design, data analysis, capacity assessments, and technical support for statistical projects.
+</div>
+
+        <div class="container">
+            <section class="About">
+                <div></div>
+    </main>
+    <main id="program"><h2>Program timetable</h2>
+        <div class="container">
+            <section class="program">
+                <div class="table-container">
+                    <thead>
+                        <table>
+                            <tr>
+                                <th colspan="3">PROGRAM TIMETABLE</th>
+                            </tr>
+                            <tr>
+                                <th>TIME</th>
+                                <th>ACTIVITY</th>
+                                <th>PARTICIPANTS</th>
+                            </tr>
+                    </thead>
+                
+                    <tr>
+                        <td>9:00-9:30</td>
+                        <td>Registration</td>
+                        <td>All,Secretary</td>
+                    </tr>
+                    <tr>
+                        <td>9:30-9:35</td>
+                        <td>Presenting the program</td>
+                        <td>MC</td>
+                    </tr>
+                    <tr>
+                        <td>9:35-9:45</td>
+                        <td>Introduction of Guests </td>
+                        <td>President of EASTC</td>
+                    </tr>
+                    <tr>
+                        <td>9:45-10:00</td>
+                        <td>Opening remarks, Constituting the Concocation & 
+                            Preamble to award the presentation</td>
+                        <td>Rector</td>
+                    </tr>
+                    <tr>
+                        <td>10:00-10:20</td>
+                        <td>Awarding the best students</td>
+                        <td>Rector,Guest of Honor</td>
+                    </tr>
+                    <tr>
+                        <td>10:20-10:40</td>
+                        <td>Awarding prizes to EASTCSO leaders</td>
+                        <td>Rector,Guest of Honor</td> 
+                    </tr>
+                    <tr>
+                        <td>10:40-11:10</td>
+                        <td><em>break:</em> </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:10-12:45</td>
+                        <td>Presentations</td>
+                        <td>doctors appointed.</td>
+                    </tr>
+                    <tr>
+                        <td>12:45-12:50</td>
+                        <td> Depature Remarks of Guest of Honor</td>
+                        <td>Rector & Guest of Honor, Invited Guests</td>
+                    </tr>
+                    <tr>
+                        <td>12:50-13:00</td>
+                        <td>Group Photo</td>
+                        <td>MC</td>
+                    </tr>
+                    <tr>
+                        <td>13:00-14:00</td>
+                        <td>HEALTH BREAK</td>
+                        <td>Rector,Guest of Honor & Invited Guests</td> 
+                    </tr>
+                    <tr>
+                        <td>14:00-15:00</td>
+                        <td>Annual General Meeting of Members of EASTC Convoction</td>
+                        <td>Presidentof Convocation,EASTC Students & Alumni</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>15:00-16:00</td>
+                        <td>Vote of Thanks and Closing</td>
+                        <td>President and Secretary of EASTC.</td>
+                    </tr>
+                </div>
+                
+                </table>
+    
+    
+            </section>
+            <main><h2>Guest speakers</h2></main>
+            <main id="speakers"></main>
+            <div class="container">
+            <section class="Guest Speakers">
+                        
+                
+            <li>Ms.Nyambilila Minga;  [Guest of honor]</li>
+                      <img src="24.jpeg" width="50%">
+           <li>Ms.Joyce Minja;  [secretary]</li>
+                    <img src="23.jpg"width="50%">  
+
+            </section>
+            <div class="ududu">
+                <main> <h2>Contacts</h2></main>
+            <main id="contacts"></main>
+                <p>+255678435209</p>
+                <p>+255235489346</p>
+            </div>
+          </section>
+          <main id="location">
+          <div class="container">
+          <section cl ass="Contacts" >   
+          <h2>location</h2> 
+          <li>Mliman city</li>
+    
+            <section class="registration">
+                <h2>Registration Information</h2>
+                <p>Register for the convocation by filling out our online registration form. For any registration inquiries, please contact us at <a href="https://eastc.ac.tz/index.php?r=site%2Fcontact">eastc@convocation.register</a>.</p>
+            </section>
+        </div>
+    
+    
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p><marquee>&copy; 2024 Eastern African Statistical Training Centre. All Rights Reserved.</marquee></p>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
